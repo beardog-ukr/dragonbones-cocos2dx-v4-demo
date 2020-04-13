@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.6)
 
-set(APP_NAME LimeChihuahua)
+set(APP_NAME DragonBonesDemo)
 
 project(${APP_NAME})
 
