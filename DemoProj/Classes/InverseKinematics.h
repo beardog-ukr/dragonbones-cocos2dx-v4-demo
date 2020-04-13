@@ -66,8 +66,7 @@ protected:
         listener->onMouseMove = CC_CALLBACK_1(InverseKinematics::_mouseMovedHandler, this);
         getEventDispatcher()->addEventListenerWithSceneGraphPriority(listener, this);
         cocos2d::Director::getInstance()->getScheduler()->schedule(
-            // schedule_selector(InverseKinematics::_enterFrameHandler), orig
-            CC_SCHEDULE_SELECTOR(InverseKinematics::_enterFrameHandler), // changed LIMECHIHH
+            CC_SCHEDULE_SELECTOR(InverseKinematics::_enterFrameHandler),
             this, 0.0f, false
         );
         //

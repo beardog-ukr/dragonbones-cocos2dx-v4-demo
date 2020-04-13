@@ -35,8 +35,7 @@ void CoreElementGame::_onStart()
     getEventDispatcher()->addEventListenerWithSceneGraphPriority(touchListener, this);
 
     cocos2d::Director::getInstance()->getScheduler()->schedule(
-        // schedule_selector(CoreElementGame::_enterFrameHandler), // orig
-        CC_SCHEDULE_SELECTOR(CoreElementGame::_enterFrameHandler), // changed LIMECHIHH
+        CC_SCHEDULE_SELECTOR(CoreElementGame::_enterFrameHandler),
         this, 0.0f, false
     );
     //

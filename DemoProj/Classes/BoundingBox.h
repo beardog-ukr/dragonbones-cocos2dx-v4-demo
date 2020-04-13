@@ -59,8 +59,7 @@ protected:
         addChild(_armatureDisplay);
         addChild(_boundingBoxTester);
         cocos2d::Director::getInstance()->getScheduler()->schedule(
-            // schedule_selector(BoundingBox::_enterFrameHandler), // orig
-            CC_SCHEDULE_SELECTOR(BoundingBox::_enterFrameHandler), // changed LIMECHIHH
+            CC_SCHEDULE_SELECTOR(BoundingBox::_enterFrameHandler),
             this, 0.0f, false
         );
         //

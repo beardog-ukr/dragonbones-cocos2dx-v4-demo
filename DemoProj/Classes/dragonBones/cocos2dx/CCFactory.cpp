@@ -34,33 +34,27 @@ TextureAtlasData* CCFactory::_buildTextureAtlasData(TextureAtlasData* textureAtl
                 switch (textureAtlasData->format)
                 {
                     case TextureFormat::RGBA8888:
-                        // pixelFormat = cocos2d::Texture2D::PixelFormat::RGBA8888; // orig
-                        pixelFormat = cocos2d::backend::PixelFormat::RGBA8888; // changed LIMECHIHH
+                        pixelFormat = cocos2d::backend::PixelFormat::RGBA8888;
                         break;
 
                     case TextureFormat::BGRA8888:
-                        // pixelFormat = cocos2d::Texture2D::PixelFormat::BGRA8888; // orig
-                        pixelFormat = cocos2d::backend::PixelFormat::BGRA8888; // changed LIMECHIHH
+                        pixelFormat = cocos2d::backend::PixelFormat::BGRA8888;
                         break;
 
                     case TextureFormat::RGBA4444:
-                        // pixelFormat = cocos2d::Texture2D::PixelFormat::RGBA4444; // orig
-                        pixelFormat = cocos2d::backend::PixelFormat::RGBA4444; // changed LIMECHIHH
+                        pixelFormat = cocos2d::backend::PixelFormat::RGBA4444;
                         break;
 
                     case TextureFormat::RGB888:
-                        // pixelFormat = cocos2d::Texture2D::PixelFormat::RGB888; // orig
-                        pixelFormat = cocos2d::backend::PixelFormat::RGB888; // changed LIMECHIHH
+                        pixelFormat = cocos2d::backend::PixelFormat::RGB888;
                         break;
 
                     case TextureFormat::RGB565:
-                        // pixelFormat = cocos2d::Texture2D::PixelFormat::RGB565; // orig
-                        pixelFormat = cocos2d::backend::PixelFormat::RGB565; // changed LIMECHIHH
+                        pixelFormat = cocos2d::backend::PixelFormat::RGB565;
                         break;
 
                     case TextureFormat::RGBA5551:
-                        // pixelFormat = cocos2d::Texture2D::PixelFormat::RGB5A1; orig
-                        pixelFormat = cocos2d::backend::PixelFormat::RGB5A1; // changed LIMECHIHH
+                        pixelFormat = cocos2d::backend::PixelFormat::RGB5A1;
                         break;
 
                     case TextureFormat::DEFAULT:
